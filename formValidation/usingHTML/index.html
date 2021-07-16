@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <header><h1>Create Account</h1></header>
+        <form class="container">
+            <div class="form-control">
+                <label for="text">UserName</label> 
+                <input id="text" type="text" name="userName" placeholder="Enter UserName" required/>
+            </div>
+            <div class="form-control">
+                <label for="text">FullName</label>
+                <input id="text" type="text" name="fullName" placeholder="Enter FullName" required/>
+            </div>
+        <div class="form-control">
+            <label for="text">Email</label>
+            <input id="text" type="email" name="email" placeholder="Enter your email" required/>
+        </div>
+        <div class="form-control">
+            <label for="text">Age</label>
+            <input id="text" type="number" name="age" placeholder="Enter your age" required/>
+        </div>
+        
+        <div class="form-control">
+            <label for="text">Mobile Number</label>
+            <input id="text" type="number" name="mobile" placeholder="Enter your mobile number" required/>
+        </div>
+        
+        <div class="form-control">
+            <label for="text">Creat Password</label>
+            <input id="text" type="password" name="password" placeholder="create password" required/>
+        </div>
+        <div class="form-control">
+        <select id="gender" name="gender">
+            <option>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+            <div class="terms" >
+            
+                <input type="checkbox" id="terms" name="terms"/>
+                <label for="terms">I agree to terms</label>
+            </div>
+        
+        <button type="submit">Submit</button>
+        </div>
+        
+    </form>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
